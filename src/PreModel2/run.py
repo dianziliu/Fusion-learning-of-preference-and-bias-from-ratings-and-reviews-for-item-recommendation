@@ -40,7 +40,7 @@ if __name__=="__main__":
     tf_flags.DEFINE_float('test_size', "0.2", "set test size to split data")
     tf_flags.DEFINE_string('res', "", "res path to save")
     tf_flags.DEFINE_integer('mode', 4, "12=4&8,4表示 inter pre, 8 表示 rating pre")
-    tf_flags.DEFINE_integer('doc_layers', 3, "doc层注意力的层数")
+    tf_flags.DEFINE_integer('doc_layers', 3, "numbers of doc attention layer")
     tf_flags.DEFINE_float('doc_dropout', .3, "doc层注意力的层数")
 
     # tf.flags.DEFINE_string('base_model', 'att_cnn', 'base model')
