@@ -1,7 +1,0 @@
-sklearn
-nltk
-numpy
-pandas
-tqdm
-python-docx
-tensorflow-gpu>=2.0
