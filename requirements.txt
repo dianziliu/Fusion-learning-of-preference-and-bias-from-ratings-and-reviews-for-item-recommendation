@@ -4,4 +4,4 @@ numpy
 pandas
 tqdm
 python-docx
-tensorflow-gpu>=2.0
+tensorflow-gpu=2.6
